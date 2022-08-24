@@ -1,2 +1,0 @@
-smsModel-gateway-client
-======
