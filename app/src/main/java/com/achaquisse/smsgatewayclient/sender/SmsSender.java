@@ -6,7 +6,6 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
-import android.content.SharedPreferences;
 import android.telephony.SmsManager;
 
 import com.achaquisse.smsgatewayclient.util.Constant;
@@ -24,10 +23,10 @@ public class SmsSender {
 
     public static void send(Context context, String sk, long to, String message) {
         PendingIntent sentPI = PendingIntent.getBroadcast(context, 0,
-                new Intent(SENT), 0);
+                new Intent(SENT), PendingIntent.FLAG_IMMUTABLE);
 
         PendingIntent deliveredPI = PendingIntent.getBroadcast(context, 0,
-                new Intent(DELIVERED), 0);
+                new Intent(DELIVERED), PendingIntent.FLAG_IMMUTABLE);
 
 
         //---when the SMS has been sent---

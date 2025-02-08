@@ -3,17 +3,18 @@ plugins {
 }
 
 android {
-    compileSdkVersion 29
-
+    compileSdk 34
     defaultConfig {
         applicationId "com.achaquisse.smsgatewayclient"
         minSdkVersion 21
-        targetSdkVersion 29
+        targetSdk 33
         versionCode 1
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
+
+    namespace "com.achaquisse.smsgatewayclient"
 
     buildTypes {
         release {
