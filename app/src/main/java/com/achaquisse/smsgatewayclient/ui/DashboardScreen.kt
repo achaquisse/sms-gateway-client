@@ -80,7 +80,7 @@ fun DashboardScreen(viewModel: DashboardViewModel = viewModel()) {
                             items(report.byTopic) { topicStat ->
                                 ListItem(
                                     headlineContent = { Text(topicStat.topic) },
-                                    trailingContent = { Text("${topicStat.count} messages") }
+                                    trailingContent = { Text("${topicStat.total} messages") }
                                 )
                             }
                         }
