@@ -1,15 +1,30 @@
 *.iml
 .gradle
 /local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
+/.idea/
 .DS_Store
 /build
 /captures
 .externalNativeBuild
 .cxx
+*.apk
+*.aar
+*.jks
+
+# Android Studio
+*.iws
+*.out
+/captures
+/google-services.json
+
+# Local configuration file (sdk path, etc)
 local.properties
+
+# Log files
+*.log
+
+# Keystore files
+*.keystore
+
+# Built variants
+**/build/
