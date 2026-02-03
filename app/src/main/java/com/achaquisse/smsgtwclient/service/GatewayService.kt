@@ -1,5 +1,6 @@
-package com.achaquisse.smsgatewayclient.service
+package com.achaquisse.smsgtwclient.service
 
+import android.R
 import android.app.*
 import android.content.BroadcastReceiver
 import android.content.Context
@@ -11,8 +12,8 @@ import android.os.IBinder
 import android.telephony.SmsManager
 import android.util.Log
 import androidx.core.app.NotificationCompat
-import com.achaquisse.smsgatewayclient.MainActivity
-import com.achaquisse.smsgatewayclient.data.*
+import com.achaquisse.smsgtwclient.MainActivity
+import com.achaquisse.smsgtwclient.data.*
 import kotlinx.coroutines.*
 import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.flow.first
@@ -65,7 +66,7 @@ class GatewayService : Service() {
         val notification = NotificationCompat.Builder(this, CHANNEL_ID)
             .setContentTitle("SMS Gateway Active")
             .setContentText("Service is running in background")
-            .setSmallIcon(android.R.drawable.stat_notify_chat)
+            .setSmallIcon(R.drawable.stat_notify_chat)
             .setPriority(NotificationCompat.PRIORITY_LOW)
             .setContentIntent(
                 PendingIntent.getActivity(

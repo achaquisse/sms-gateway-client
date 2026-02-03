@@ -1,4 +1,4 @@
-package com.achaquisse.smsgatewayclient.ui.theme
+package com.achaquisse.smsgtwclient.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

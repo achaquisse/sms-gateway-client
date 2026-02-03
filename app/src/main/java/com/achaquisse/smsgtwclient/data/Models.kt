@@ -1,4 +1,4 @@
-package com.achaquisse.smsgatewayclient.data
+package com.achaquisse.smsgtwclient.data
 
 import com.google.gson.annotations.SerializedName
 

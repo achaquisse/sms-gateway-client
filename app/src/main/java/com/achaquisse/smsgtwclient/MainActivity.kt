@@ -1,4 +1,4 @@
-package com.achaquisse.smsgatewayclient
+package com.achaquisse.smsgtwclient
 
 import android.Manifest
 import android.content.Intent
@@ -24,10 +24,10 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
-import com.achaquisse.smsgatewayclient.service.GatewayService
-import com.achaquisse.smsgatewayclient.ui.ConfigScreen
-import com.achaquisse.smsgatewayclient.ui.DashboardScreen
-import com.achaquisse.smsgatewayclient.ui.theme.SMSGatewayClientTheme
+import com.achaquisse.smsgtwclient.service.GatewayService
+import com.achaquisse.smsgtwclient.ui.ConfigScreen
+import com.achaquisse.smsgtwclient.ui.DashboardScreen
+import com.achaquisse.smsgtwclient.ui.theme.SMSGatewayClientTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

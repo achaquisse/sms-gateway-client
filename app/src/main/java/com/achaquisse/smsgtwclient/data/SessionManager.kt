@@ -1,4 +1,4 @@
-package com.achaquisse.smsgatewayclient.data
+package com.achaquisse.smsgtwclient.data
 
 import android.content.Context
 import android.content.SharedPreferences

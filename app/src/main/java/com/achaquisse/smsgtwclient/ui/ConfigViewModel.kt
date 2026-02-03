@@ -1,4 +1,4 @@
-package com.achaquisse.smsgatewayclient.ui
+package com.achaquisse.smsgtwclient.ui
 
 import android.app.Application
 import androidx.compose.runtime.getValue
@@ -7,7 +7,7 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
-import com.achaquisse.smsgatewayclient.data.*
+import com.achaquisse.smsgtwclient.data.*
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.launch
 

@@ -1,8 +1,9 @@
-package com.achaquisse.smsgatewayclient.data
+package com.achaquisse.smsgtwclient.data
 
 import okhttp3.Interceptor
 import okhttp3.Response
 
+// Corrected package name
 class AuthInterceptor(private val sessionManager: SessionManager) : Interceptor {
     override fun intercept(chain: Interceptor.Chain): Response {
         val originalRequest = chain.request()

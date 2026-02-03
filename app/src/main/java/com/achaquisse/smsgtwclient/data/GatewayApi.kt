@@ -1,4 +1,4 @@
-package com.achaquisse.smsgatewayclient.data
+package com.achaquisse.smsgtwclient.data
 
 import retrofit2.http.Body
 import retrofit2.http.GET

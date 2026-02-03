@@ -1,6 +1,5 @@
-package com.achaquisse.smsgatewayclient.ui.theme
+package com.achaquisse.smsgtwclient.ui.theme
 
-import android.app.Activity
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.MaterialTheme

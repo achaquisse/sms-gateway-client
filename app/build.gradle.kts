@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.achaquisse.smsgatewayclient"
+    namespace = "com.achaquisse.smsgtwclient"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.achaquisse.smsgatewayclient"
+        applicationId = "com.achaquisse.smsgtwclient"
         minSdk = 31
         targetSdk = 36
         versionCode = 1
